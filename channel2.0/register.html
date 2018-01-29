@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>注册</title>
+</head>
+<body>
+<div class="container">
+    <header class="head"></header>
+    <!-- 主体内容start -->
+    <section>
+        <div class="input_container">
+            <input id="phone" type="text" placeholder="请输入手机号">
+        </div>
+        <div class="input_container">
+            <input id="picVerify" type="text" placeholder="请输入图形验证码">
+            <span class="pic" id="picImg">
+                <!--<img src="http://api.youqian.melonmobile.cn/captcha/code.json" alt="">-->
+                <img src="" alt="">
+            </span>
+        </div>
+        <div class="input_container">
+            <input id="noteVerify" class="note_input" type="text" placeholder="请输入短信验证码">
+            <span class="note">
+                <button class="note_text" style="width:110px;" id="noteVerifyPic">获取验证码</button>
+            </span>
+        </div>
+        <div class="agreement">
+            <span class="checked" id="checked" dataCheck="true"></span>
+            <i class="for_check" id="for_check"></i>
+            <span>
+                我已阅读并同意
+                <a href="serve-deal.html">
+                <span style="color: #fff;">《马上有钱用户服务协议》</span>
+                </a>
+            </span>
+        </div>
+        <div class="btn" id="register">
+            立即注册
+        </div>
+    </section>
+    <!-- 主体内容end -->
+    <footer>
+        重庆甜瓜科技有限公司 &nbsp;&nbsp; 版权所有
+    </footer>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/phone.js"></script>
+<script src="js/public.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

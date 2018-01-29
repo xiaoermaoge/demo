@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mpicker.css">
+    <link rel="stylesheet" href="css/basics.css">
+    <title>基本信息</title>
+</head>
+<body>
+<div class="container">
+    <header class="title">
+        <div class="text_container clearF">
+            <div class="fl one circle_box">
+                <div class="circle">01</div>
+                <span>免费实名</span>
+            </div>
+            <div class="fl two xian"></div>
+            <div class="fl three circle_box in">
+                <div class="circle">02</div>
+                <span>填写资料</span>
+            </div>
+            <div class="fl four xian"></div>
+            <div class="fl five circle_box">
+                <div class="circle">03</div>
+                <span>借款申请</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="basics_container">
+            <div class="line clearF">
+                <span class="fl left">基础信息</span>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">居住城市</span>
+                <input type="text" class="change" value="" placeholder="请选择" id="city">
+                <div class="show" id="cityShow">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">详细地址</span>
+                <input type="text" class="fl" placeholder="请填写详细地址" custom="homeDetail" id="address">
+            </div>
+            <div class="line clearF">
+                <span class="fl left">居住时长</span>
+                <input type="text" class="change" placeholder="请选择" id="resideDuration">
+                <div class="show" id="resideDurationData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">婚姻状况</span>
+                <input type="text" class="change" placeholder="请选择" id="marriage">
+                <div class="show" id="marriageData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">学历</span>
+                <input type="text" class="change" placeholder="请选择" id="education">
+                <div class="show" id="educationData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">芝麻信用分</span>
+                <input type="text" class="change" placeholder="请选择" id="sesame" value="">
+                <div class="show" id="sesameData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">是否有本地社保</span>
+                <input type="text" class="change" placeholder="请选择" id="social">
+                <div class="show" id="socialData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">是否有本地公积金</span>
+                <input type="text" class="change" placeholder="请选择" id="reserved">
+                <div class="show" id="reservedData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">有无信用卡</span>
+                <input type="text" class="change" placeholder="请选择" id="credit">
+                <div class="show" id="creditData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">资产情况</span>
+                <input type="text" class="change" placeholder="请选择" id="property">
+                <div class="show" id="propertyData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+        <div class="work_container">
+            <div class="line clearF">
+                <span class="fl left">工作信息</span>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">职业</span>
+                <input type="text" class="change" placeholder="请选择" id="profession">
+                <div class="show" id="professionData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">工作单位</span>
+                <input type="text" class="fl" placeholder="请输入" id="workName" custom="unitName">
+            </div>
+            <div class="line clearF">
+                <span class="fl left">单位地址</span>
+                <input type="text" class="change" placeholder="请输入" id="workAddress">
+                <div class="show" id="workAddressData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">详细地址</span>
+                <input type="text" class="fl" placeholder="请输入" id="workDetail" custom="unitDetail">
+            </div>
+            <div class="line clearF">
+                <span class="fl left">月收入</span>
+                <input type="text" class="change" placeholder="请选择" id="monthIncome">
+                <div class="show" id="monthIncomeData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">发薪日</span>
+                <input type="text" class="change" placeholder="请选择" id="payrollDate">
+                <div class="show" id="payrollDateData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+        <div class="relation_container">
+            <div class="line clearF">
+                <span class="fl left">联系方式</span>
+            </div>
+            <div class="line clearF">
+                <span class="fl left">微信</span>
+                <input type="text" class="fl" placeholder="请输入" id="weixin" custom="weixin">
+            </div>
+            <div class="line clearF">
+                <span class="fl left">QQ</span>
+                <input type="text" class="fl" placeholder="请输入" id="qqNum" custom="qq">
+            </div>
+            <div class="line clearF">
+                <span class="fl left">紧急联系人</span>
+                <input type="text" class="change" placeholder="请输入" id="urgencyRelation">
+                <div class="show" id="urgencyRelationData">
+                    <span>请选择</span>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- 紧急联系人start -->
+    <div class="model">
+        <div class="model_content">
+            <div class="kinsfolk">
+                <div class="line clearF">
+                    <span class="fl left">直系亲属</span>
+                    <input type="text" class="change" placeholder="请选择" id="direct">
+                    <div class="show" id="directData">
+                        <span>请选择与本人关系</span>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="line clearF">
+                    <span class="fl left">姓名</span>
+                    <input type="text" class="fl" placeholder="请输入联系人姓名" id="directName">
+                </div>
+                <div class="line clearF">
+                    <span class="fl left">手机号码</span>
+                    <input type="text" class="" placeholder="请输入手机号码" id="directNum">
+                    <!--<div class="show directNum" id="directNumData">-->
+                        <!--<span>请选择手机号码</span>-->
+                        <!--<em></em>-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <div class="friends">
+                <div class="line clearF">
+                    <span class="fl left">同事朋友</span>
+                    <input type="text" class="change" placeholder="请选择" id="colleague">
+                    <div class="show" id="colleagueData">
+                        <span>请选择与本人关系</span>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="line clearF">
+                    <span class="fl left">姓名</span>
+                    <input type="text" class="fl" placeholder="请输入联系人姓名" id="friendsName">
+                </div>
+                <div class="line clearF">
+                    <span class="fl left">手机号码</span>
+                    <input type="text" class="" placeholder="请输入手机号码" id="friendsNum">
+                </div>
+            </div>
+        </div>
+        <div class="model_btn" id="model_btn">确定</div>
+    </div>
+    <!-- 紧急联系人end -->
+    <nav>
+        <!--<a href="borrow.html"></a>-->
+        下一步
+    </nav>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--<script src="js/three/json.js"></script>-->
+<!--<script src="js/three/jsonExchange.js"></script>-->
+<script src="js/three/mPicker.min.js"></script>
+<script src="js/phone.js"></script>
+<script src="js/public.js"></script>
+<script src="js/basics.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body, html {
+  height: 100%; }
+  body .container, html .container {
+    background: #0C5BC4;
+    height: 100%;
+    width: 100%; }
+  body .head, html .head {
+    width: 100%;
+    height: 240px;
+    background: url("../images/toutu@2x.png");
+    background-size: 100% 100%; }
+  body section, html section {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 27px; }
+    body section .input_container, html section .input_container {
+      height: 46px;
+      line-height: 46px;
+      width: 100%;
+      border-radius: 25px;
+      background: #fff;
+      margin-top: 15px;
+      padding-left: 30px;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 14px;
+      position: relative; }
+      body section .input_container:first-child, html section .input_container:first-child {
+        margin-top: 10px; }
+      body section .input_container :-moz-placeholder, html section .input_container :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #cbcbcb; }
+      body section .input_container ::-moz-placeholder, html section .input_container ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #cbcbcb; }
+      body section .input_container input:-ms-input-placeholder, html section .input_container input:-ms-input-placeholder {
+        color: #cbcbcb; }
+      body section .input_container input::-webkit-input-placeholder, html section .input_container input::-webkit-input-placeholder {
+        color: #cbcbcb; }
+      body section .input_container input, html section .input_container input {
+        border: none;
+        width: 100%;
+        outline: none;
+        max-width: 150px; }
+      body section .input_container .note_input, html section .input_container .note_input {
+        max-width: 115px; }
+      body section .input_container span.pic, html section .input_container span.pic {
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+        border: 1px solid #ddd;
+        position: absolute;
+        right: 32px;
+        top: 9px; }
+        body section .input_container span.pic img, html section .input_container span.pic img {
+          width: 100%;
+          height: 100%; }
+      body section .input_container span.note, html section .input_container span.note {
+        display: inline-block;
+        margin-left: 40px;
+        position: relative;
+        height: 100%; }
+        body section .input_container span.note:before, html section .input_container span.note:before {
+          position: absolute;
+          display: inline-block;
+          height: 18px;
+          width: 1px;
+          left: 0;
+          top: 14px;
+          background: #939393;
+          content: ''; }
+        body section .input_container span.note .note_text, html section .input_container span.note .note_text {
+          color: #251579;
+          padding-left: 10px;
+          height: 100%;
+          display: inline-block;
+          width: 110px;
+          background: none;
+          text-align: center;
+          border: none;
+          outline: none;
+          padding-right: 0;
+          font-size: 12px; }
+    body section .agreement, html section .agreement {
+      font-size: 13px;
+      height: 20px;
+      line-height: 20px;
+      padding-left: 40px;
+      color: #60A2E0;
+      position: relative;
+      margin-top: 10px; }
+      body section .agreement .checked, html section .agreement .checked {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url("../images/xuanzhong2x.png");
+        background-size: 100% 100%;
+        position: absolute;
+        top: 0px;
+        left: 10px; }
+      body section .agreement .for_check, html section .agreement .for_check {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        width: 120px;
+        z-index: 10;
+        height: 20px; }
+    body section .btn, html section .btn {
+      width: 100%;
+      border-radius: 25px;
+      margin-top: 50px;
+      background: #FFDA26;
+      height: 46px;
+      line-height: 46px;
+      color: #272727;
+      font-size: 16px;
+      text-align: center; }
+  body footer, html footer {
+    font-size: 12px;
+    margin-top: 76px;
+    text-align: center;
+    color: #64A7E6; }
+
+/*# sourceMappingURL=register.css.map */

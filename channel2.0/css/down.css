@@ -1,0 +1,68 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+  body .container, html .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("../images/bj.png") 0% 0%/100% 100%; }
+    body .container section .logo, html .container section .logo {
+      width: 100px;
+      margin: 0 auto;
+      height: 250px;
+      text-align: center;
+      margin-bottom: 77px;
+      color: #fff;
+      font-size: 20px; }
+      body .container section .logo img, html .container section .logo img {
+        width: 100%;
+        margin-top: 158px; }
+    body .container section .btn, html .container section .btn {
+      width: 226px;
+      height: 46px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 25px;
+      text-align: center;
+      color: #409BF8;
+      line-height: 46px;
+      font-size: 18px;
+      position: relative; }
+      body .container section .btn a, html .container section .btn a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-align: center; }
+  body .model, html .model {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 18px; }
+    body .model div.pic, html .model div.pic {
+      width: 350px;
+      height: 180px;
+      position: absolute;
+      right: 10px;
+      top: -10px; }
+      body .model div.pic img, html .model div.pic img {
+        width: 100%;
+        height: 100%; }
+    body .model div.text, html .model div.text {
+      text-align: center;
+      position: relative;
+      top: 250px; }
+  body .downApk, html .downApk {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/*# sourceMappingURL=down.css.map */

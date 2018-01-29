@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mpicker.css">
+    <link rel="stylesheet" href="css/linkman.css">
+    <title>紧急联系人</title>
+</head>
+<body>
+    <div class="container">
+        <!-- 紧急联系人start -->
+        <div class="model">
+            <div class="model_content">
+                <div class="kinsfolk">
+                    <div class="line clearF">
+                        <span class="fl left">直系亲属</span>
+                        <input type="text" class="change" placeholder="请选择" id="direct">
+                        <div class="show" id="directData">
+                            <span>请选择与本人关系</span>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="line clearF">
+                        <span class="fl left">姓名</span>
+                        <input type="text" class="fl" placeholder="请输入联系人姓名" id="directName">
+                    </div>
+                    <div class="line clearF">
+                        <span class="fl left">手机号码</span>
+                        <input type="text" class="" placeholder="请输入手机号码" id="directNum">
+                        <!--<div class="show directNum" id="directNumData">-->
+                        <!--<span>请选择手机号码</span>-->
+                        <!--<em></em>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+                <div class="friends">
+                    <div class="line clearF">
+                        <span class="fl left">同事朋友</span>
+                        <input type="text" class="change" placeholder="请选择" id="colleague">
+                        <div class="show" id="colleagueData">
+                            <span>请选择与本人关系</span>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="line clearF">
+                        <span class="fl left">姓名</span>
+                        <input type="text" class="fl" placeholder="请输入联系人姓名" id="friendsName">
+                    </div>
+                    <div class="line clearF">
+                        <span class="fl left">手机号码</span>
+                        <input type="text" class="" placeholder="请输入手机号码" id="friendsNum">
+                    </div>
+                </div>
+            </div>
+            <div class="model_btn" id="model_btn">确定</div>
+        </div>
+        <!-- 紧急联系人end -->
+    </div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/three/mPicker.min.js"></script>
+<script src="js/phone.js"></script>
+<script src="js/public.js"></script>
+<script src="js/linkman.js"></script>
+</body>
+</html>
